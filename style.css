@@ -10,15 +10,34 @@ body > header {
 }
 
 #site-name {
-    padding: 10px 20px;
+    padding: 15px 15px;
 }
 
 #menu {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    color: whitesmoke;
+}
+
+body > header > nav > ul > li > a:link {
+    color: whitesmoke
 }
 
 body > main >article {
     width: 70%;
     margin: auto;
+}
 
+#login-input {
+    list-style: none;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
 }
